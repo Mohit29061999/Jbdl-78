@@ -1,0 +1,19 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<p> view </p>
+Server time : <span th:text="${date}"/>
+
+
+<h2>Person list</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    <tr th:each="person : ${personList}">
+        <td th:text="${person.id}"></td>
+        <td th:text="${person.name}"></td>
+    </tr>
+</table>
+</body>
+</html>
