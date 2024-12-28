@@ -8,10 +8,10 @@ public class Main {
     public static void main(String[] args){
 
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.annotationdemo");
-        Address address = (Address) applicationContext.getBean("address");
+//        Address address = (Address) applicationContext.getBean("address");
 
-        Address address2 = (Address) applicationContext.getBean("address");
+        Person person = (Person) applicationContext.getBean("person");
 
-        System.out.println(address.equals(address2));
+        //System.out.println(person.getAddress().equals(address));
     }
 }
