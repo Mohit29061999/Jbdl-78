@@ -1,5 +1,6 @@
 package com.db.springDbDemo.db.controller;
 
+import com.db.springDbDemo.db.model.MyPerson;
 import com.db.springDbDemo.db.model.Person;
 import com.db.springDbDemo.db.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +42,18 @@ public class PersonController {
     @GetMapping("/person/{id}")
     public Person getPersonByid(@PathVariable int id){
         return personService.getPersonByid(id);
+    }
+
+    //get all MyPerson table records from db
+    @GetMapping("/myPerson")
+    public List<MyPerson> getAllMyPerson(){
+        return  personService.getAllMyPerson();
+    }
+
+    //create a new myPerson record
+    @PostMapping("/myPerson")
+    public MyPerson createMyPerson(@RequestBody MyPerson myPerson){
+        return personService.createMyPerson(myPerson);
     }
 
 

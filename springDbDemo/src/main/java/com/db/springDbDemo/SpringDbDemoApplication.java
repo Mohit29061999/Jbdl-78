@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
+import java.util.Optional;
+
 @SpringBootApplication
 public class SpringDbDemoApplication {
 
@@ -21,6 +23,12 @@ public class SpringDbDemoApplication {
 //		System.out.println(person);
 //        System.out.println(person.getId());
 //		System.out.println(person.getName());
+//		Optional<Person> person = Optional.ofNullable(new Person("temp",1));
+//		if(person.isPresent()){
+//			Person currentPerson = person.get();
+//		}
+
+
 
 	}
 
