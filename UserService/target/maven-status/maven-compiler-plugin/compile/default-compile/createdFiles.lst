@@ -1,0 +1,13 @@
+com/gfgDemo/UserService/RequestFilter.class
+com/gfgDemo/UserService/UserDto.class
+com/gfgDemo/UserService/WalletDto.class
+com/gfgDemo/UserService/User$UserBuilder.class
+com/gfgDemo/UserService/WalletClient.class
+com/gfgDemo/UserService/Configuration.class
+com/gfgDemo/UserService/UserDto$UserDtoBuilder.class
+com/gfgDemo/UserService/UserService.class
+com/gfgDemo/UserService/UserServiceApplication.class
+com/gfgDemo/UserService/User.class
+com/gfgDemo/UserService/UserController.class
+com/gfgDemo/UserService/UserRepository.class
+com/gfgDemo/UserService/WalletDto$WalletDtoBuilder.class
